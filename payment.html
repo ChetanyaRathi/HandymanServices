@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HANDYMAN | PAYMENT</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;700;900&display=swap" rel="stylesheet">
+    <link rel="icon" href="LOGO-removebg-preview (1).png">
+
+    <style>
+         #logo{
+        display : inline-block ;
+        position : absolute ;
+        width : 100px ;
+        height : 100px ;
+        border-radius : 100% ;
+        background : rgb(243, 230, 48) ;
+        box-shadow : 4px 4px 8px 0 rgb(240, 240, 240) , -6px 6px 12px 0 white  ;
+        top : 8px ;
+        left: 1400px;
+    }
+        body {
+    background-image : linear-gradient( 90deg ,#dab2f5, rgb(95, 180, 173)) ;
+    }
+    .container{
+        position: absolute;
+        height: 700px;
+        width: 910px;
+    left: 284px;
+        top: 100px;
+        
+        align-self: center;
+        background-color: white;
+        box-shadow : 4px 4px 12px 0  rgb(207, 72, 248) ;
+        border-radius: 17px;
+    }
+    h1{
+        position: absolute;
+       left: 335px;
+       top: 26px;
+       font-family: 'Poppins', sans-serif;
+       }
+
+
+       #fname{
+           position: relative;
+           height: 30px;
+           width: 300px;
+           top: 150px;
+           font-size: 0.9rem;
+               left: 90px;
+               font-family: 'Nunito', sans-serif;
+       }
+       #email{
+        position: relative;
+           height: 30px;
+           width: 300px;
+           top: 238px;
+           left:-222px; 
+          
+           font-size: 0.9rem; 
+           font-family: 'Nunito', sans-serif;
+                  
+       }
+
+       #contact{
+        position: relative;
+           height: 30px;
+           width: 300px;
+           top: 294px;
+           left: 90px;
+          font-size: 0.9rem; 
+           font-family: 'Nunito', sans-serif;
+       }
+
+       #add{
+        position: relative;
+           height: 30px;
+           width: 300px;
+           top: 393px;
+           left:-222px; 
+          font-size: 0.9rem; 
+           font-family: 'Nunito', sans-serif;  
+       }
+       #ccnum{position: relative;
+           height: 30px;
+           width: 300px;
+           top: 79px;
+           left: 482px;
+           font-size: 0.9rem;
+           font-family: 'Nunito', sans-serif;
+                 
+
+       }
+#expmonth{
+    position: relative;
+    height: 32px;
+    width: 300px;
+    top: 166px;
+    left: 174px;
+           font-family: 'Nunito', sans-serif;     
+}
+#cvv{
+    position: relative;
+           height: 30px;
+           width: 300px;
+           top: 221px;
+    left: 485px;
+           font-size: 0.9rem;
+           font-family: 'Nunito', sans-serif;
+               
+}
+#amt{
+    position: relative;
+           height: 30px;
+           width: 300px;
+           
+           top: 320px;
+           left: 174px;
+           font-size: 0.9rem;
+           font-family: 'Nunito', sans-serif;
+}
+.btn{
+    position: relative;
+           height: 40px;
+           width: 300px;
+           top: 426px;
+    left: 290px;
+           border-radius: 23px;
+           border: none;
+           font-size: 0.9rem;
+           font-family: 'Nunito', sans-serif;
+           background-image : linear-gradient( to right ,rgb(95, 180, 173),#dab2f5) ;
+           
+}
+.btn:hover {
+   
+    background-image : linear-gradient( to right ,#dab2f5,rgb(95, 180, 173)) ;
+    box-shadow : 4px 4px 12px 0  rgb(215, 143, 243) ;
+  
+}
+
+.button{
+ text-decoration: none;
+ color: white;
+ font-size: 1.2rem;
+}
+
+.names{
+    margin: 10px;
+}
+
+
+.btn1{
+    position: relative;
+           height: 40px;
+           width: 300px;
+           top: 485px;
+    left: -13px;
+           border-radius: 23px;
+           border: none;
+           font-size: 0.9rem;
+           font-family: 'Nunito', sans-serif;
+           background-image : linear-gradient( to right ,rgb(95, 180, 173),#dab2f5) ;
+           
+}
+.btn1:hover {
+   
+    background-image : linear-gradient( to right ,#dab2f5,rgb(95, 180, 173)) ;
+    box-shadow : 4px 4px 12px 0  rgb(215, 143, 243) ;
+  
+}
+
+.button1{
+ text-decoration: none;
+ color: white;
+ font-size: 1.2rem;
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="img"> 
+        <img id="logo" src="LOGO-removebg-preview (1).png">
+    <div class="container">
+  <h1> Payment form</h1>
+  <div class="names">
+  <input type="text" id="fname" name="firstname" placeholder="Full Name">
+  <input type="email" id="email" name="email" placeholder="Email">
+  <input type="number" id="contact" name="contact" placeholder="phone No.">
+  <input type="text" id="add" name="add" placeholder="Addrees">
+  <input type="text" id="ccnum" name="cardnumber" placeholder="Card Number">
+  <input type="date" id="expmonth" name="expmonth" placeholder="exp-year">
+  <input type="number" id="cvv" name="cvv" placeholder="CVV">
+  <input type="number" id="amt" name="amt" placeholder="Enter your Amount">
+  <button class="btn"> <a href="thanks.html" class="button">Payment</a></button>
+  <button class="btn1"> <a href="#" class="button1">Google Pay</a></button>
+</div>
+    </div>
+</body>
+</html>
